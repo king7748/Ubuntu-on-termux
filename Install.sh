@@ -13,6 +13,7 @@ C="$(printf '\033[1;36m')"
 requirements() {
     clear 
     echo ${G}"This is a script to install ubuntu 23.04 (Lunar) in proot-distro"
+    echo ${G}"made by king7799'
     sleep 1 
     echo ${G}"Installing required packages..."${W}
     pkg install pulseaudio proot-distro wget  -y
